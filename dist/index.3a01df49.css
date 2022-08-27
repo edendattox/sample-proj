@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+body {
+  border: 10px solid;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  border-image-slice: 1;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
